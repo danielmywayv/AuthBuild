@@ -1,0 +1,171 @@
+{
+  "apiRoutes": [
+    {
+      "file": "_expo/functions/api/stt+api.js",
+      "page": "/api/stt",
+      "namedRegex": "^/api/stt(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "htmlRoutes": [
+    {
+      "file": "./index.tsx",
+      "page": "/index",
+      "namedRegex": "^/(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/login.tsx",
+      "page": "/(auth)/login",
+      "namedRegex": "^(?:/\\(auth\\))?/login(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/register.tsx",
+      "page": "/(auth)/register",
+      "namedRegex": "^(?:/\\(auth\\))?/register(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/Support.tsx",
+      "page": "/(settings)/Support",
+      "namedRegex": "^(?:/\\(settings\\))?/Support(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/ChangeBio.tsx",
+      "page": "/(settings)/ChangeBio",
+      "namedRegex": "^(?:/\\(settings\\))?/ChangeBio(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/ChangePass.tsx",
+      "page": "/(settings)/ChangePass",
+      "namedRegex": "^(?:/\\(settings\\))?/ChangePass(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/ChangeEmail.tsx",
+      "page": "/(settings)/ChangeEmail",
+      "namedRegex": "^(?:/\\(settings\\))?/ChangeEmail(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(auth)/AvatarSelection.tsx",
+      "page": "/(auth)/AvatarSelection",
+      "namedRegex": "^(?:/\\(auth\\))?/AvatarSelection(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/ChangeAvatar.tsx",
+      "page": "/(settings)/ChangeAvatar",
+      "namedRegex": "^(?:/\\(settings\\))?/ChangeAvatar(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/ProfileScreen.tsx",
+      "page": "/(settings)/ProfileScreen",
+      "namedRegex": "^(?:/\\(settings\\))?/ProfileScreen(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/ChangeGroupID.tsx",
+      "page": "/(settings)/ChangeGroupID",
+      "namedRegex": "^(?:/\\(settings\\))?/ChangeGroupID(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/ChangeNickname.tsx",
+      "page": "/(settings)/ChangeNickname",
+      "namedRegex": "^(?:/\\(settings\\))?/ChangeNickname(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(settings)/RequestResetLink.tsx",
+      "page": "/(settings)/RequestResetLink",
+      "namedRegex": "^(?:/\\(settings\\))?/RequestResetLink(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./GroupPage/MyWayv.tsx",
+      "page": "/GroupPage/MyWayv",
+      "namedRegex": "^/GroupPage/MyWayv(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(public)/MyWayv.tsx",
+      "page": "/(public)/MyWayv",
+      "namedRegex": "^(?:/\\(public\\))?/MyWayv(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./welcome.tsx",
+      "page": "/welcome",
+      "namedRegex": "^/welcome(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./GroupPage/Settings.tsx",
+      "page": "/GroupPage/Settings",
+      "namedRegex": "^/GroupPage/Settings(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(public)/Settings.tsx",
+      "page": "/(public)/Settings",
+      "namedRegex": "^(?:/\\(public\\))?/Settings(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./GroupPage/ColorChart.tsx",
+      "page": "/GroupPage/ColorChart",
+      "namedRegex": "^/GroupPage/ColorChart(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(public)/ColorChart.tsx",
+      "page": "/(public)/ColorChart",
+      "namedRegex": "^(?:/\\(public\\))?/ColorChart(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(public)/PublicSpace.tsx",
+      "page": "/(public)/PublicSpace",
+      "namedRegex": "^(?:/\\(public\\))?/PublicSpace(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./ResetPassword.tsx",
+      "page": "/ResetPassword",
+      "namedRegex": "^/ResetPassword(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./GroupPage/[groupId]/index.tsx",
+      "page": "/GroupPage/[groupId]/index",
+      "namedRegex": "^/GroupPage/(?<groupId>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "groupId": "groupId"
+      }
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "./+not-found.tsx",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      }
+    }
+  ],
+  "redirects": [],
+  "rewrites": []
+}
